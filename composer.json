@@ -1,10 +1,10 @@
 {
-    "name": "froala/wysiwyg-cake",
+    "name": "cmbsolutions/wysiwyg-cake",
     "description": "A beautiful WYSIWYG text editor based on HTML5 technology. Cross browser, with mobile support, high performance and Retina Ready modern design.",
     "type": "cakephp-plugin",
     "keywords": [
         "froala",
-        "froala cake php 3",
+        "froala cake php 4",
         "html",
         "text",
         "editor",
@@ -19,27 +19,26 @@
     "license": "proprietary",
     "authors": [
       {
-        "name": "Froala Labs",
+        "name": "CMBSolutions",
         "role": "Maintainer"
       }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "cakephp/cakephp": ">=3.3.2 <4.0.0",
-        "fortawesome/font-awesome": ">=4.4.0"
+        "php": ">=7.4",
+        "cakephp/cakephp": "~4.2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
-            "Froala\\": "src"
+            "Froala\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Froala\\Test\\": "tests",
-            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+            "Froala\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
         }
     },
     "support": {
